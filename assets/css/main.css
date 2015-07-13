@@ -1488,7 +1488,7 @@ a {
     outline: 0;
 }
 a:hover {
-    color: #E27689;
+    color: #E07B32;
     border-bottom-color: rgba(255, 255, 255, 0);
 }
 sub {
@@ -1878,7 +1878,7 @@ button:active,
     color: #fff;
 }
 #nav ul li a.active span:before {
-    color: #e27689;
+    color: #E07B32;
 }
 
 /* Footer */
