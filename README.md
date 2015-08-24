@@ -1,6 +1,6 @@
 # Website of Norvos
 
-In this repository, the website data of [Norvos](https://github.com/connorlanigan/norvos) (a secure desktop and cross-platform messaging application) is organized.
+In this repository, the website data of [Norvos](https://github.com/connorlanigan/norvos) (a secure desktop and cross-platform messaging application) is organized. View the website at https://norvos.de.
 
 If you feel that something needs to be changed, or you have an idea on how to improve the website, [open an issue](https://github.com/connorlanigan/norvos-website/issues/new).
 
