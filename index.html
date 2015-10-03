@@ -1,179 +1,179 @@
 <!DOCTYPE HTML>
 <!--
-	Prologue by HTML5 UP
+	Alpha by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 
 <head>
-    <title>Norvos - Desktop TextSecure Messenger</title>
+    <title>Norvos Encrypted Messenger</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="assets/css/main.css" />
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 </head>
 
-<body>
+<body class="landing">
+    <div id="page-wrapper">
 
-    <!-- Header -->
-    <div id="header">
-
-        <div class="top">
-
-            <!-- Logo -->
-            <div id="logo">
-                <span class="image avatar48"><img src="logo.png" alt="" /></span>
-                <a href="#top" id="top-link" class="skel-layers-ignoreHref scrolly"><h1 id="title">Norvos</h1></a>
-                <p>Encrypted Messaging</p>
-            </div>
-
-            <!-- Nav -->
+        <!-- Header -->
+        <header id="header" class="alt">
+            <h1><a href="index.html">Norvos</a> by Starfish Interactive</h1>
             <nav id="nav">
-                <!--
-
-								Prologue's nav expects links in one of two formats:
-
-								1. Hash link (scrolls to a different section within the page)
-
-								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
-
-								2. Standard link (sends the user to another page/site)
-
-								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
-
-							-->
                 <ul>
-                    <!-- li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li -->
-                    <li><a href="#features" id="features-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Features</span></a></li>
-                    <li><a href="#download" id="download-link" class="skel-layers-ignoreHref"><span class="icon fa-download">Download</span></a></li>
-
-					<div style="text-align:center; font-size:70%; line-height:110%; padding:10px"><a href="https://starfishinteractive.org">About Us / Getting Involved</a></div>
-
-
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="https://manual.norvos.de/">Read the User Manual</a></li>
+                    <li><a href="contact.html">Contact & Support</a></li>
+                    <li><a href="getInvolved.html" class="button">Get Involved</a></li>
                 </ul>
             </nav>
+        </header>
 
-        </div>
+        <!-- Banner -->
+        <section id="banner">
+            <h2>Norvos</h2>
+            <p>Your messages deserve proper protection.
+                <br>Let Norvos handle that.</p>
+            <ul class="actions">
 
-        <div class="bottom">
-
-            <!-- Social Icons -->
-            <!-- ul class="icons">
-                <li><a href="https://github.com/connorlanigan/norvos" class="icon fa-github"><span class="label">Github</span></a></li>
-                <li><a href="https://github.com/connorlanigan/norvos/wiki" class="icon fa-group"><span class="label">Wiki</span></a></li>
-                <li><a href="mailto:norvos@connorlanigan.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
-            </ul -->
-            <div style="text-align:center; font-size:80%; line-height:100%; margin-bottom:1em"><span style="font-size: 80%">maintained by</span>
-                <br><a href="https://connorlanigan.com">Connor Lanigan</a></div>
-
-
-        </div>
-
-    </div>
-
-    <!-- Main -->
-    <div id="main">
-
-        <!-- Intro -->
-        <section id="top" class="one dark cover">
-            <div class="container">
-
-                <header>
-                    <h2 class="alt">You want <strong>your</strong> messages to stay <strong>yours?</strong><br><br>You've come to the <strong>right place</strong>.</h2>
-                    <p>Norvos <strong>encrypts everything</strong>, so you can concentrate on what matters most.</p>
-                </header>
-
-                <footer>
-                    <a href="#features" class="button scrolly">Tell me more</a>
-                </footer>
-
-            </div>
+                <li class="only-mobile"><a href="#" class="button disabled">Download only for Desktops</a></li>
+                <li class="only-desktop"><a href="#" onclick="downloadCurrentOS(); return false;" class="button special button-leftpart">Download</a><a href="#" class="button special button-rightpart" data-jq-dropdown="#download-menu"><i class="fa fa-caret-down"></i></a></li>
+                <li><a href="#intro" class="button scrolly">Learn More</a></li>
+            </ul>
         </section>
 
-        <!-- Features -->
-        <section id="features" class="two">
-            <div class="container">
+        <!-- Main -->
+        <section id="main" class="container">
 
-                <header>
-                    <h2>Features</h2>
+            <section class="box special">
+                <header class="major">
+                    <h2 id="intro" class="scrolly-target">Introducing the new experience
+							<br />
+							of hassle-free message encryption</h2>
+                    <p>Easy messaging and protection of privacy now go hand in hand.
+                        <br>Never think about cryptography again.</p>
                 </header>
+                <span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
+            </section>
 
-                <p>Norvos is currently in development, and has not yet been released. However, have a look its features:</p>
+            <section class="box special features">
+                <div class="features-row">
+                    <section>
+                        <span class="icon major fa-bolt accent2"></span>
+                        <h3>Instant Messaging</h3>
+                        <p>Norvos is a modern instant messenger. Your messages arrive in the moment you send them. And if your partner is offline, they will get them as soon as they're back.</p>
+                    </section>
+                    <section>
+                        <span class="icon major fa-lock accent3"></span>
+                        <h3>Encryption</h3>
+                        <p>Norvos encrypts all messages you send and receive, so that they're protected from prying eyes. This happens automatically and transparently, without you noticing.</p>
+                    </section>
+                </div>
+                <div class="features-row">
+                    <section>
+                        <span class="icon major fa-camera accent4"></span>
+                        <h3>Multimedia</h3>
+                        <p>Send pictures, audio and video to your friends. Exchanging multimedia messages makes communication easy and quick.</p>
+                    </section>
+                    <section>
+                        <span class="icon major fa-bolt accent5"></span>
+                        <h3>Enim phasellus</h3>
+                        <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+                    </section>
+                </div>
+            </section>
 
-                <div class="row">
-                    <div class="6u 12u$(mobile)">
-                        <article class="item">
-                            <a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-                            <header>
-                                <h3>Main interface</h3>
-                            </header>
-                        </article>
-                        <article class="item">
-                            <a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-                            <header>
-                                <h3>Rhoncus Semper</h3>
-                            </header>
-                        </article>
+            <div class="row">
+                <div class="6u 12u(narrower)">
+
+                    <section class="box special">
+                        <span class="image featured"><img src="images/pic02.jpg" alt="" /></span>
+                        <h3>Need some support?</h3>
+                        <p>If you want more information or are interested in using Norvos in your organization, start by getting in touch.
+                            <br>You can find info in our manual or contact us for personal support.</p>
+                        <ul class="actions">
+                            <li><a href="#" class="button alt">User Manual</a></li>
+                            <li><a href="#" class="button alt">Support</a></li>
+                        </ul>
+                    </section>
+
+                </div>
+                <div class="6u 12u(narrower)">
+
+                    <section class="box special">
+                        <span class="image featured"><img src="images/pic03.jpg" alt="" /></span>
+                        <h3>Powered by Open Source</h3>
+                        <p>This project is run by volunteers investing their personal time. They develop, plan and document in order to produce a great experience for everybody. If you feel this might be your thing, you can join us.</p>
+                        <ul class="actions">
+                            <li><a href="getInvolved.html" class="button alt">Learn more</a></li>
+                        </ul>
+                    </section>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- CTA -->
+        <section id="cta">
+
+            <h2>Sign up for release notification</h2>
+            <p>As soon as our first release is ready, you will be notified.
+                <br>Your email address will be deleted as soon as we have sent the notifications.</p>
+
+            <form method="post" action="https://formspree.io/signup@norvos.de">
+                <div class="row uniform 50%">
+                    <div class="8u 12u(mobilep)">
+                        <input type="email" name="_replyto" id="email" placeholder="Email Address" />
+                        <input type="hidden" name="_subject" value="Registration for Release Notification" />
+                        <input type="text" name="_gotcha" style="display:none" />
+                        <input type="text" name="message" style="display:none" value="This user requested to be notified upon release." />
                     </div>
-                    <div class="6u 12u$(mobile)">
-                        <article class="item">
-                            <a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-                            <header>
-                                <h3>Magna Nullam</h3>
-                            </header>
-                        </article>
-                        <article class="item">
-                            <a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-                            <header>
-                                <h3>Natoque Vitae</h3>
-                            </header>
-                        </article>
+                    <div class="4u 12u(mobilep)">
+                        <input type="submit" value="Sign Up" class="fit" />
                     </div>
                 </div>
+            </form>
 
-            </div>
         </section>
 
-        <section id="download" class="four">
-            <div class="container">
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="icons">
+                <li><a href="https://github.com/StarfishInteractive/norvos" class="icon fa-github"><span class="label">Github</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy; <a href="https://connorlanigan.com/">Connor Lanigan</a>. All rights reserved.</li>
+                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </footer>
 
-                <header>
-                    <h2>Download</h2>
-                </header>
-
-                <p>There are no downloads available yet.<br>
-                If you are interested in the ongoing development process, <a href="https://blog.norvos.de">visit the blog</a>.
-                    <!--
-                        <br><a href="#" class="button"  >Download for Linux</a>
-                        <br><a href="#"                 >Download for Mac</a>
-                        <br><a href="#"                 >Download for Windows</a>
-                    -->
-                </p>
-            </div>
-        </section>
     </div>
 
-    <!-- Footer -->
-    <div id="footer">
-
-        <!-- Copyright -->
-        <ul class="copyright">
-            <li>&copy; 2015, Connor Lanigan. All rights reserved.</li>
-            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+    <div id="download-menu" class="jq-dropdown jq-dropdown-tip">
+        <ul class="jq-dropdown-menu">
+            <li><a href="#" onclick="downloadMac(); return false;" class="dropdown-link">Download for Mac</a></li>
+            <li class="jq-dropdown-divider"></li>
+            <li><a href="#" onclick="downloadLinux(); return false;" class="dropdown-link">Download for Linux</a></li>
+            <li class="jq-dropdown-divider"></li>
+            <li><a href="#" onclick="downloadWindows(); return false;" class="dropdown-link">Download for Windows</a></li>
         </ul>
-
     </div>
+    <link type="text/css" rel="stylesheet" href="assets/css/jquery.dropdown.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/sweetalert2.css">
 
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/jquery.scrollzer.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/jquery.scrollgress.min.js"></script>
     <script src="assets/js/skel.min.js"></script>
     <script src="assets/js/util.js"></script>
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.dropdown.js"></script>
+    <script src="assets/js/sweetalert2.min.js"></script>
     <script src="assets/js/main.js"></script>
 
 </body>
